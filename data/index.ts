@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Versatile Software Developer Crafting End-to-End Solutions",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Flexible for Collaborations!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,11 +49,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title:
+      "Currently competing in hackathons, building versatile software, and expanding my skills.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 mb-20",
+    titleClassName: "justify-center md:justify-start lg:justify-center mb-20",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
@@ -72,68 +73,84 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Costivity-Expense Tracker",
+    des: "A work-in-progress expense tracker that uses Plaid and AI to provide financial insights without manual input. Built by me and my team.",
+    img: "/p1.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/python.png", "/c.svg"],
+    link: "https://costivity.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Intel-O-Flash",
+    des: "An AI-powered flashcard app with Next.js, MUI, and Firebase for efficient study. Offers a sleek UI and secure login.",
+    img: "flashcard.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/node.svg",
+      "/firebase-icon.svg",
+      "/groq.svg",
+    ],
+    link: "https://ai-flashcards-amber.vercel.app/login",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Sage.ai",
+    des: "An AI platform that helps students choose the best courses and instructors through real-time professor reviews and insights.",
+    img: "/sage.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/groq.svg",
+      "/js.svg",
+      "/firebase-icon.svg",
+    ],
+    link: "https://ai-rate-my-professor-three.vercel.app/login",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "ChatterBot",
+    des: "An AI customer support app built with Firebase, Next.js, and LLaMA AI, designed for efficient and instant responses.",
+    img: "/chatterbot.png",
+    iconLists: [
+      "/next.svg",
+      "/css.svg",
+      "/firebase-icon.svg",
+      "/js.svg",
+      "/groq.svg",
+    ],
+    link: "https://ai-customer-support-alpha-five.vercel.app/home",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Farzin played a crucial role in the success of our project at SouthLink. His expertise in full-stack development and his ability to understand our needs made a huge impact. He consistently delivered high-quality work on time, and his proactive communication ensured the project ran smoothly. I’d highly recommend him for any team looking for a dependable and skilled developer.",
+    name: "SouthLink",
+    title: "Owner of the Gas Station",
+    logo: "/southlink.jpeg", // Replace with your logo file path
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Farzin has been an inspiring experience. His creativity and technical skills bring out the best in our projects. As a fellow student at the University of Delaware, I’ve seen his commitment to excellence firsthand. Farzin is always willing to help, share knowledge, and explore new ideas, making him a fantastic teammate.",
+    name: "Ujjwala Pothula",
+    title: "University of Delaware",
+    logo: "delaware.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Farzin at Fordham University has been nothing short of rewarding. His attention to detail and ability to think critically have been invaluable to our projects. Farzin’s commitment to learning and pushing boundaries stands out, making him a reliable and innovative collaborator.",
+    name: "Mir Shahiduzzaman",
+    title: "Intern at Pulp and student at Fordham University",
+    logo: "/fordam.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I can confidently say Farzin brings a strong sense of responsibility and accountability to his work. He takes initiative and approaches tasks thoughtfully, ensuring he follows through consistently. Farzin communicates clearly and effectively, is always open to feedback, and is dedicated to continuous improvement. His knack for creative problem-solving adds great value to every project we tackle together.",
+    name: "Muhammad Amir",
+    title: "Brooklyn College",
+    logo: "/brooklyn.svg",
   },
 ];
 
@@ -173,29 +190,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Tech Fellow",
+    desc: "Led programming sessions for up to 30 students, teaching JavaScript and Python, troubleshooting hardware/software issues, and presenting new APIs to enhance the business model.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Hackathon Participant - Software Engineer",
+    desc: "Monthly hackathons with Major League Hacking focused on AI, cloud, and web projects. Builds versatile applications, staying updated on tech trends and advancing technical skills.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Software Engineer - Headstarter AI",
+    desc: "Led a team in the Headstarter AI Fellowship, creating innovative software solutions and currently developing a new-age expense tracker using AI and modern tech.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Full-Stack Developer",
+    desc: "Developed a full-stack web app for SouthLink using React, Flask, and Docker, including backend APIs and responsive UIs to create a seamless user experience.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +222,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Farzin312",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "http://www.linkedin.com/in/farzin-shifat-5b7b43207",
   },
 ];

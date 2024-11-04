@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Full-Stack Development | AI Integrations | Team Leadership
           </p>
 
           {/**
@@ -52,12 +52,16 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Building Scalable Solutions with Cutting-Edge AI and Agile Development"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            color="#FFFFFFFF"
+            altColor="#C2EFEB"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Farzin, a Next.js Developer based in New York.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-gray-300">
+            Hi! I am Farzin Shifat, a versatile software engineer specializing
+            in full-stack development, AI integrations, and project leadership.
+            Experienced in deploying efficient and scalable web applications.
           </p>
 
           <a href="#about">
